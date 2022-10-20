@@ -1,22 +1,24 @@
 {
-  "name": "node-rtsp-stream",
-  "version": "0.0.8",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "prepublish": "npm run test",
-    "test": "mocha test/*.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kyriesent/node-rtsp-stream.git"
-  },
-  "author": "David Jsa <david@jsa.me>",
-  "license": "MIT",
-  "devDependencies": {
-    "mocha": "^5.2.0"
-  },
-  "dependencies": {
-    "ws": "^7.0.0"
-  }
+    "name": "rtsp",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon server"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JeostonJunior/RTPS-REDES.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/JeostonJunior/RTPS-REDES/issues"
+    },
+    "homepage": "https://github.com/JeostonJunior/RTPS-REDES#readme",
+    "dependencies": {
+        "express": "^4.18.2",
+        "nodemon": "^2.0.20"
+    }
 }
