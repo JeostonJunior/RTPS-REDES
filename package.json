@@ -1,22 +1,13 @@
 {
-    "name": "rtsp",
+    "name": "rtsp-redes",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "nodemon server"
+        "start": "nodemon index.js"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/JeostonJunior/RTPS-REDES.git"
-    },
-    "keywords": [],
     "author": "",
     "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/JeostonJunior/RTPS-REDES/issues"
-    },
-    "homepage": "https://github.com/JeostonJunior/RTPS-REDES#readme",
     "dependencies": {
         "express": "^4.18.2",
         "nodemon": "^2.0.20"
